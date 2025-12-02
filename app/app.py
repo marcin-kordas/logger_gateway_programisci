@@ -29,13 +29,23 @@ st.markdown("""
 # --- DATA LOADING ---
 @st.cache_data
 def load_data():
-    try:
-        with open("../data/candidates.json", "r", encoding="utf-8") as f:
-            data = json.load(f)
-        return data
-    except FileNotFoundError:
-        st.error("candidates.json not found. Please run the analysis step first.")
-        return []
+    # Try multiple path options (local vs Streamlit Cloud)
+    possible_paths = [
+        "../data/candidates.json",  # From app/ directory
+        "data/candidates.json",      # From root directory
+        "candidates.json"             # Same directory
+    ]
+    
+    for path in possible_paths:
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            return data
+        except FileNotFoundError:
+            continue
+    
+    st.error("candidates.json not found in any expected location. Please check repository structure.")
+    return []
 
 raw_data = load_data()
 
