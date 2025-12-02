@@ -1,4 +1,4 @@
-# HR Analytics Dashboard - Logger v Gateway
+# HR Analytics Dashboard - Logger Gateway Programiści
 
 Streamlit-based HR Analytics Dashboard for candidate intelligence and recruitment analysis.
 
@@ -11,7 +11,7 @@ Streamlit-based HR Analytics Dashboard for candidate intelligence and recruitmen
 ## Project Structure
 
 ```
-Logger_v_Gateway/
+logger_gateway_programisci/
 ├── app/
 │   ├── app.py          # Main Streamlit application
 │   └── images/         # Candidate profile images
