@@ -1,0 +1,1485 @@
+{
+    "metadata": {
+        "job_id": "C_Programmer_Energy_OZE",
+        "job_title": "Programista C - Energetyka/OZE",
+        "job_requirements": {
+            "must_have": {
+                "C_Language": {
+                    "name": "C Language (C99/C11)",
+                    "priority": 10,
+                    "category": "language"
+                },
+                "POSIX_API": {
+                    "name": "POSIX API",
+                    "priority": 9,
+                    "category": "system"
+                },
+                "Linux": {
+                    "name": "Linux experience",
+                    "priority": 9,
+                    "category": "system"
+                },
+                "Energy_Knowledge": {
+                    "name": "Energy sector knowledge (PV, storage, power control)",
+                    "priority": 9,
+                    "category": "domain"
+                },
+                "Multithreading": {
+                    "name": "Multithreading (pthread)",
+                    "priority": 8,
+                    "category": "systems"
+                },
+                "Network_Communication": {
+                    "name": "Network communication (sockets, TCP/IP)",
+                    "priority": 8,
+                    "category": "networking"
+                },
+                "Version_Control": {
+                    "name": "Git",
+                    "priority": 7,
+                    "category": "tools"
+                },
+                "Compiler": {
+                    "name": "GCC",
+                    "priority": 7,
+                    "category": "tools"
+                },
+                "Debugger": {
+                    "name": "GDB",
+                    "priority": 7,
+                    "category": "tools"
+                }
+            },
+            "nice_to_have": {
+                "Modbus": {
+                    "name": "Modbus TCP/RTU",
+                    "priority": 8,
+                    "category": "protocol"
+                },
+                "Energy_Projects": {
+                    "name": "Energy sector project experience",
+                    "priority": 8,
+                    "category": "experience"
+                },
+                "PV_Systems": {
+                    "name": "PV installations knowledge",
+                    "priority": 7,
+                    "category": "domain"
+                },
+                "Storage_Systems": {
+                    "name": "Storage systems knowledge",
+                    "priority": 7,
+                    "category": "domain"
+                },
+                "Hardware_Integration": {
+                    "name": "Hardware integration (inverters, batteries, meters)",
+                    "priority": 7,
+                    "category": "integration"
+                }
+            },
+            "constraints": {
+                "Salary_PLN_Min": 12000,
+                "Salary_PLN_Max": 31000,
+                "Contract_Types": [
+                    "B2B",
+                    "UoP"
+                ],
+                "Work_Modes": [
+                    "Remote",
+                    "Hybrid"
+                ],
+                "Location": "Kraków"
+            }
+        },
+        "total_candidates": 7,
+        "timestamp": "2025-11-25T22:57:00Z"
+    },
+    "candidates": [
+        {
+            "id": "Artur Piskorski",
+            "metadata": {
+                "name": "Artur Piskorski",
+                "timestamp_submitted": null,
+                "status": "Recommended"
+            },
+            "availability": {
+                "available_in_days": 30,
+                "available_from_text": "2025-11-20",
+                "salary": {
+                    "expected_net_PLN": 15000,
+                    "currency": "PLN",
+                    "employment_type": null
+                }
+            },
+            "experience": {
+                "similar_role": {
+                    "has_similar": true,
+                    "years": null,
+                    "detail": "Tak, powyzej roku"
+                },
+                "energy_sector": {
+                    "has_experience": true,
+                    "years": null,
+                    "projects_count": null
+                },
+                "oze_renewable": {
+                    "has_experience": true,
+                    "years": null
+                },
+                "ems_management": {
+                    "has_experience": true,
+                    "years": null
+                }
+            },
+            "technical_skills": {
+                "languages": {
+                    "C": {
+                        "level": true,
+                        "standard": "C99/C11",
+                        "experience_years": null,
+                        "platforms": [
+                            "Linux"
+                        ]
+                    },
+                    "Python": {
+                        "level": true,
+                        "experience_years": null
+                    },
+                    "JavaScript": {
+                        "level": false,
+                        "experience_years": null
+                    }
+                },
+                "systems": {
+                    "Linux": {
+                        "level": true,
+                        "distributions": [
+                            "Armbian",
+                            "Debian"
+                        ],
+                        "experience_years": null
+                    },
+                    "POSIX": {
+                        "level": false,
+                        "has_pthreads": false,
+                        "has_multithreading": false
+                    }
+                },
+                "networking": {
+                    "TCP_IP": {
+                        "level": true,
+                        "sockets": true
+                    },
+                    "protocols": {
+                        "Modbus_RTU": true,
+                        "Modbus_TCP": true,
+                        "MQTT": true,
+                        "RS485": true
+                    }
+                },
+                "tools": {
+                    "version_control": {
+                        "Git": {
+                            "level": false,
+                            "experience_years": null
+                        },
+                        "SVN": false
+                    },
+                    "compilation_debugging": {
+                        "GCC": {
+                            "level": false
+                        },
+                        "GDB": {
+                            "level": false
+                        }
+                    }
+                },
+                "embedded": {
+                    "general": 9,
+                    "microcontrollers": {
+                        "STM32": false,
+                        "ESP32": true,
+                        "RTOS": true
+                    },
+                    "pcb_design": true
+                }
+            },
+            "domain_expertise": {
+                "energy": {
+                    "general_level": 8,
+                    "photovoltaic": {
+                        "has_pv_experience": true,
+                        "knowledge_areas": [
+                            "PV installations",
+                            "PV control"
+                        ]
+                    },
+                    "storage": {
+                        "has_storage_experience": true,
+                        "battery_types": [],
+                        "bms_experience": false
+                    },
+                    "hardware": {
+                        "inverters": true,
+                        "batteries": true,
+                        "meters": false
+                    },
+                    "systems": {
+                        "ems": true,
+                        "scada": false
+                    }
+                }
+            },
+            "qualifications": {
+                "education": {
+                    "academic": {
+                        "has_formal_degree": null,
+                        "level": null,
+                        "fields": []
+                    },
+                    "certifications": []
+                }
+            },
+            "projects": {
+                "energy_projects": [],
+                "embedded_projects": [],
+                "total_count": null
+            },
+            "soft_skills": {
+                "leadership": 7,
+                "communication": 8,
+                "entrepreneurship": true
+            },
+            "culture_fit": {
+                "persona_type": null,
+                "entrepreneurial": false,
+                "process_oriented": false,
+                "detail_below": "Builder / Innovator"
+            },
+            "risk_assessment": {
+                "gaps": [],
+                "red_flags": [],
+                "green_flags": [],
+                "concerns": "Strongest candidate technically. Explicit mention of Modbus, MQTT, RTOS, and Linux. Claims 'autorskie projekty' (author's projects) and full system design. \n\n**Gap**: No public GitHub found despite claims of 'autorskie projekty'. Verification of code quality is missing."
+            },
+            "validation": {
+                "alignment_score": null,
+                "alignment_level": "HIGH",
+                "recommendation": "Recommended",
+                "search_verification": "Search for 'Artur Piskorski' yielded no specific programming profile. Candidate likely works on private/local projects or under a different handle."
+            },
+            "raw_data": {
+                "skills_list": [
+                    "C",
+                    "Python",
+                    "Linux",
+                    "Modbus RTU/TCP",
+                    "MQTT",
+                    "Embedded",
+                    "Node-RED",
+                    "ESP32",
+                    "RS-485",
+                    "system integration",
+                    "network automation",
+                    "PCB design"
+                ],
+                "skills_optional": [
+                    "AI LLM integration",
+                    "no-code/low-code automation",
+                    "cloud integration",
+                    "API design",
+                    "SQL",
+                    "FreeRTOS",
+                    "Armbian",
+                    "Debian"
+                ],
+                "interview_questions": [
+                    "Walk me through a specific debugging scenario in your energy storage project. What tools did you use (GDB, oscilloscope, serial logs)?",
+                    "How would you design a multithreaded Modbus polling loop in C for 10+ devices with different response times?",
+                    "Describe how you would structure a codebase for a multi-component EMS with unit tests and CI."
+                ],
+                "gap_analysis_detail": [
+                    "No explicit POSIX/pthread experience documented (could be implicit in Linux work)",
+                    "No formal academic background in software (polytechnic: incomplete, technical school)",
+                    "Limited evidence of GCC/GDB use (embedded/RTOS likely uses it, but not stated)",
+                    "May need mentorship on code quality and large-project process"
+                ]
+            }
+        },
+        {
+            "id": "Kamil Godek",
+            "metadata": {
+                "name": "Kamil Godek",
+                "timestamp_submitted": null,
+                "status": "Consider for Junior/Mid"
+            },
+            "availability": {
+                "available_in_days": 0,
+                "available_from_text": "Natychmiast",
+                "salary": {
+                    "expected_net_PLN": 5000,
+                    "currency": "PLN",
+                    "employment_type": null
+                }
+            },
+            "experience": {
+                "similar_role": {
+                    "has_similar": true,
+                    "years": null,
+                    "detail": "Tak, do roku"
+                },
+                "energy_sector": {
+                    "has_experience": false,
+                    "years": null,
+                    "projects_count": null
+                },
+                "oze_renewable": {
+                    "has_experience": false,
+                    "years": null
+                },
+                "ems_management": {
+                    "has_experience": false,
+                    "years": null
+                }
+            },
+            "technical_skills": {
+                "languages": {
+                    "C": {
+                        "level": true,
+                        "standard": "C99/C11",
+                        "experience_years": null,
+                        "platforms": [
+                            "Linux"
+                        ]
+                    },
+                    "Python": {
+                        "level": true,
+                        "experience_years": null
+                    },
+                    "JavaScript": {
+                        "level": false,
+                        "experience_years": null
+                    }
+                },
+                "systems": {
+                    "Linux": {
+                        "level": true,
+                        "distributions": [],
+                        "experience_years": null
+                    },
+                    "POSIX": {
+                        "level": false,
+                        "has_pthreads": false,
+                        "has_multithreading": false
+                    }
+                },
+                "networking": {
+                    "TCP_IP": {
+                        "level": true,
+                        "sockets": true
+                    },
+                    "protocols": {
+                        "Modbus_RTU": true,
+                        "Modbus_TCP": true,
+                        "MQTT": false,
+                        "RS485": false
+                    }
+                },
+                "tools": {
+                    "version_control": {
+                        "Git": {
+                            "level": true,
+                            "experience_years": null
+                        },
+                        "SVN": true
+                    },
+                    "compilation_debugging": {
+                        "GCC": {
+                            "level": false
+                        },
+                        "GDB": {
+                            "level": false
+                        }
+                    }
+                },
+                "embedded": {
+                    "general": 8,
+                    "microcontrollers": {
+                        "STM32": true,
+                        "ESP32": false,
+                        "RTOS": false
+                    },
+                    "pcb_design": true
+                }
+            },
+            "domain_expertise": {
+                "energy": {
+                    "general_level": 3,
+                    "photovoltaic": {
+                        "has_pv_experience": false,
+                        "knowledge_areas": []
+                    },
+                    "storage": {
+                        "has_storage_experience": false,
+                        "battery_types": [],
+                        "bms_experience": false
+                    },
+                    "hardware": {
+                        "inverters": false,
+                        "batteries": false,
+                        "meters": false
+                    },
+                    "systems": {
+                        "ems": false,
+                        "scada": false
+                    }
+                }
+            },
+            "qualifications": {
+                "education": {
+                    "academic": {
+                        "has_formal_degree": null,
+                        "level": null,
+                        "fields": []
+                    },
+                    "certifications": []
+                }
+            },
+            "projects": {
+                "energy_projects": [],
+                "embedded_projects": [],
+                "total_count": null
+            },
+            "soft_skills": {
+                "leadership": 4,
+                "communication": 7,
+                "entrepreneurship": false
+            },
+            "culture_fit": {
+                "persona_type": null,
+                "entrepreneurial": false,
+                "process_oriented": false,
+                "detail_below": "Specialist / Builder"
+            },
+            "risk_assessment": {
+                "gaps": [],
+                "red_flags": [],
+                "green_flags": [],
+                "concerns": "Strong academic background (AGH) and embedded projects (STM32, Camera 3D). Good C/Python mix. \n\n**Gap**: Lack of specific Energy/Modbus experience. GitHub link provided in CV but not indexed by broad search."
+            },
+            "validation": {
+                "alignment_score": null,
+                "alignment_level": "MEDIUM",
+                "recommendation": "Consider for Junior/Mid",
+                "search_verification": "CV lists github.com/KamilGodek. Search confirmed presence of 'Kamil Godek' in academic/project contexts (AGH)."
+            },
+            "raw_data": {
+                "skills_list": [
+                    "C",
+                    "Python",
+                    "Embedded",
+                    "STM32",
+                    "PCB design",
+                    "TCP/IP",
+                    "hardware diagnostics",
+                    "SQL",
+                    "Linux basics"
+                ],
+                "skills_optional": [
+                    "G-Code",
+                    "AI/ML",
+                    "haptics",
+                    "OpenCV",
+                    "PyTorch",
+                    "CAD",
+                    "Git",
+                    "SVN"
+                ],
+                "interview_questions": [
+                    "How would you approach integrating a new Modbus device (e.g., a smart meter) into an existing EMS?",
+                    "Walk me through your TCP/IP server implementation for the Cognex camera—what challenges did you face?",
+                    "How would you manage real-time data flow from 20+ inverters in a distributed PV network?"
+                ],
+                "gap_analysis_detail": [
+                    "No explicit OZE, PV, or energy storage project experience",
+                    "No POSIX/pthread experience mentioned",
+                    "Embedded work is on microcontrollers, not Linux system programming",
+                    "Recent work is warehouse logistics (temporary), not engineering"
+                ]
+            }
+        },
+        {
+            "id": "Magdalena Nowakowska",
+            "metadata": {
+                "name": "Magdalena Nowakowska",
+                "timestamp_submitted": null,
+                "status": "Consider for Senior Generalist"
+            },
+            "availability": {
+                "available_in_days": 0,
+                "available_from_text": "-",
+                "salary": {
+                    "expected_net_PLN": null,
+                    "currency": "PLN",
+                    "employment_type": null
+                }
+            },
+            "experience": {
+                "similar_role": {
+                    "has_similar": false,
+                    "years": null,
+                    "detail": "-"
+                },
+                "energy_sector": {
+                    "has_experience": false,
+                    "years": null,
+                    "projects_count": null
+                },
+                "oze_renewable": {
+                    "has_experience": false,
+                    "years": null
+                },
+                "ems_management": {
+                    "has_experience": false,
+                    "years": null
+                }
+            },
+            "technical_skills": {
+                "languages": {
+                    "C": {
+                        "level": true,
+                        "standard": "C99/C11",
+                        "experience_years": null,
+                        "platforms": [
+                            "Linux"
+                        ]
+                    },
+                    "Python": {
+                        "level": false,
+                        "experience_years": null
+                    },
+                    "JavaScript": {
+                        "level": false,
+                        "experience_years": null
+                    }
+                },
+                "systems": {
+                    "Linux": {
+                        "level": true,
+                        "distributions": [],
+                        "experience_years": null
+                    },
+                    "POSIX": {
+                        "level": true,
+                        "has_pthreads": true,
+                        "has_multithreading": true
+                    }
+                },
+                "networking": {
+                    "TCP_IP": {
+                        "level": true,
+                        "sockets": true
+                    },
+                    "protocols": {
+                        "Modbus_RTU": false,
+                        "Modbus_TCP": false,
+                        "MQTT": false,
+                        "RS485": false
+                    }
+                },
+                "tools": {
+                    "version_control": {
+                        "Git": {
+                            "level": true,
+                            "experience_years": null
+                        },
+                        "SVN": true
+                    },
+                    "compilation_debugging": {
+                        "GCC": {
+                            "level": false
+                        },
+                        "GDB": {
+                            "level": false
+                        }
+                    }
+                },
+                "embedded": {
+                    "general": 7,
+                    "microcontrollers": {
+                        "STM32": false,
+                        "ESP32": false,
+                        "RTOS": false
+                    },
+                    "pcb_design": false
+                }
+            },
+            "domain_expertise": {
+                "energy": {
+                    "general_level": 2,
+                    "photovoltaic": {
+                        "has_pv_experience": false,
+                        "knowledge_areas": []
+                    },
+                    "storage": {
+                        "has_storage_experience": false,
+                        "battery_types": [],
+                        "bms_experience": false
+                    },
+                    "hardware": {
+                        "inverters": false,
+                        "batteries": false,
+                        "meters": false
+                    },
+                    "systems": {
+                        "ems": false,
+                        "scada": false
+                    }
+                }
+            },
+            "qualifications": {
+                "education": {
+                    "academic": {
+                        "has_formal_degree": null,
+                        "level": null,
+                        "fields": []
+                    },
+                    "certifications": []
+                }
+            },
+            "projects": {
+                "energy_projects": [],
+                "embedded_projects": [],
+                "total_count": null
+            },
+            "soft_skills": {
+                "leadership": 9,
+                "communication": 8,
+                "entrepreneurship": false
+            },
+            "culture_fit": {
+                "persona_type": null,
+                "entrepreneurial": false,
+                "process_oriented": false,
+                "detail_below": "Specialist / Maintainer"
+            },
+            "risk_assessment": {
+                "gaps": [],
+                "red_flags": [],
+                "green_flags": [],
+                "concerns": "Very senior profile (JDG since 2020, diverse history). Strong C/Linux/Pthreads foundation. \n\n**Gap**: Heavy focus on Web/PHP/SQL in recent years might mean C skills are rusty. No direct Energy sector experience mentioned."
+            },
+            "validation": {
+                "alignment_score": null,
+                "alignment_level": "MEDIUM-HIGH",
+                "recommendation": "Consider for Senior Generalist",
+                "search_verification": "No public LinkedIn found. Profile suggests a seasoned freelancer/contractor."
+            },
+            "raw_data": {
+                "skills_list": [
+                    "C",
+                    "Linux",
+                    "POSIX/pthreads",
+                    "Multithreading",
+                    "WebSockets",
+                    "PHP",
+                    "Delphi",
+                    "SQL",
+                    "project management"
+                ],
+                "skills_optional": [
+                    "MS SQL",
+                    "API",
+                    "pyCUDA",
+                    "PostgreSQL",
+                    "Firebird",
+                    "UML",
+                    "GIT",
+                    "SVN"
+                ],
+                "interview_questions": [
+                    "How would you approach learning a new industrial protocol (like Modbus) with limited documentation?",
+                    "Describe a project where you had to integrate software with external hardware or real-world systems.",
+                    "Walk me through how you debug race conditions in a multithreaded C application."
+                ],
+                "gap_analysis_detail": [
+                    "No energy sector, OZE, Modbus, or hardware integration experience",
+                    "No embedded systems or PCB/device work",
+                    "Would need significant onboarding into the domain"
+                ]
+            }
+        },
+        {
+            "id": "Ihor Horalevych",
+            "metadata": {
+                "name": "Ihor Horalevych",
+                "timestamp_submitted": null,
+                "status": "Niche Fit (Automation)"
+            },
+            "availability": {
+                "available_in_days": 0,
+                "available_from_text": "W ciągu miesiąca",
+                "salary": {
+                    "expected_net_PLN": null,
+                    "currency": "PLN",
+                    "employment_type": null
+                }
+            },
+            "experience": {
+                "similar_role": {
+                    "has_similar": true,
+                    "years": null,
+                    "detail": "Tak, powyzej roku"
+                },
+                "energy_sector": {
+                    "has_experience": true,
+                    "years": null,
+                    "projects_count": null
+                },
+                "oze_renewable": {
+                    "has_experience": false,
+                    "years": null
+                },
+                "ems_management": {
+                    "has_experience": false,
+                    "years": null
+                }
+            },
+            "technical_skills": {
+                "languages": {
+                    "C": {
+                        "level": true,
+                        "standard": "C99/C11",
+                        "experience_years": null,
+                        "platforms": [
+                            "Linux"
+                        ]
+                    },
+                    "Python": {
+                        "level": false,
+                        "experience_years": null
+                    },
+                    "JavaScript": {
+                        "level": false,
+                        "experience_years": null
+                    }
+                },
+                "systems": {
+                    "Linux": {
+                        "level": true,
+                        "distributions": [],
+                        "experience_years": null
+                    },
+                    "POSIX": {
+                        "level": false,
+                        "has_pthreads": false,
+                        "has_multithreading": false
+                    }
+                },
+                "networking": {
+                    "TCP_IP": {
+                        "level": true,
+                        "sockets": true
+                    },
+                    "protocols": {
+                        "Modbus_RTU": false,
+                        "Modbus_TCP": false,
+                        "MQTT": false,
+                        "RS485": false
+                    }
+                },
+                "tools": {
+                    "version_control": {
+                        "Git": {
+                            "level": false,
+                            "experience_years": null
+                        },
+                        "SVN": false
+                    },
+                    "compilation_debugging": {
+                        "GCC": {
+                            "level": false
+                        },
+                        "GDB": {
+                            "level": false
+                        }
+                    }
+                },
+                "embedded": {
+                    "general": 6,
+                    "microcontrollers": {
+                        "STM32": true,
+                        "ESP32": false,
+                        "RTOS": false
+                    },
+                    "pcb_design": true
+                }
+            },
+            "domain_expertise": {
+                "energy": {
+                    "general_level": 10,
+                    "photovoltaic": {
+                        "has_pv_experience": false,
+                        "knowledge_areas": []
+                    },
+                    "storage": {
+                        "has_storage_experience": false,
+                        "battery_types": [],
+                        "bms_experience": false
+                    },
+                    "hardware": {
+                        "inverters": false,
+                        "batteries": false,
+                        "meters": false
+                    },
+                    "systems": {
+                        "ems": false,
+                        "scada": false
+                    }
+                }
+            },
+            "qualifications": {
+                "education": {
+                    "academic": {
+                        "has_formal_degree": null,
+                        "level": null,
+                        "fields": []
+                    },
+                    "certifications": []
+                }
+            },
+            "projects": {
+                "energy_projects": [],
+                "embedded_projects": [],
+                "total_count": null
+            },
+            "soft_skills": {
+                "leadership": 9,
+                "communication": 6,
+                "entrepreneurship": false
+            },
+            "culture_fit": {
+                "persona_type": null,
+                "entrepreneurial": false,
+                "process_oriented": false,
+                "detail_below": "Veteran Specialist / Builder"
+            },
+            "risk_assessment": {
+                "gaps": [],
+                "red_flags": [],
+                "green_flags": [],
+                "concerns": "Perfect domain fit (Energy, PLC, SCADA, Electrical qualifications). \n\n**Gap**: Primary experience is Automation/PLC, not C programming (C99/POSIX). He is an Automatyk, not a Software Engineer."
+            },
+            "validation": {
+                "alignment_score": null,
+                "alignment_level": "MEDIUM",
+                "recommendation": "Niche Fit (Automation)",
+                "search_verification": "Confirmed background in Automation/Energy via CV details."
+            },
+            "raw_data": {
+                "skills_list": [
+                    "automation",
+                    "PLC",
+                    "industrial electronics",
+                    "project design",
+                    "SCADA",
+                    "C",
+                    "Embedded",
+                    "Linux",
+                    "microcontrollers",
+                    "assembly",
+                    "PCB design",
+                    "telemetry",
+                    "TCP/IP"
+                ],
+                "skills_optional": [
+                    "STM32",
+                    "FPGA",
+                    "EPLAN",
+                    "TIA Portal",
+                    "Automation Studio",
+                    "pneumatics",
+                    "hydraulics"
+                ],
+                "interview_questions": [
+                    "Describe a project where you integrated serial communication (RS-485, Modbus RTU) with a SCADA system.",
+                    "How would you adapt your PLC/SCADA experience to a Linux-based energy management platform?",
+                    "What is your experience with version control and collaborative code development?"
+                ],
+                "gap_analysis_detail": [
+                    "No explicit Modbus, OZE, or EMS experience",
+                    "No Git, GCC, GDB or modern Linux system programming",
+                    "May be less familiar with modern software engineering workflows",
+                    "OLX-generated CV lacks detail (use main CV instead)"
+                ]
+            }
+        },
+        {
+            "id": "Jakub Sobczuk",
+            "metadata": {
+                "name": "Jakub Sobczuk",
+                "timestamp_submitted": null,
+                "status": "Junior / Intern"
+            },
+            "availability": {
+                "available_in_days": 0,
+                "available_from_text": "Natychmiast",
+                "salary": {
+                    "expected_net_PLN": null,
+                    "currency": "PLN",
+                    "employment_type": null
+                }
+            },
+            "experience": {
+                "similar_role": {
+                    "has_similar": false,
+                    "years": null,
+                    "detail": "Nie"
+                },
+                "energy_sector": {
+                    "has_experience": false,
+                    "years": null,
+                    "projects_count": null
+                },
+                "oze_renewable": {
+                    "has_experience": false,
+                    "years": null
+                },
+                "ems_management": {
+                    "has_experience": false,
+                    "years": null
+                }
+            },
+            "technical_skills": {
+                "languages": {
+                    "C": {
+                        "level": true,
+                        "standard": "C99/C11",
+                        "experience_years": null,
+                        "platforms": [
+                            "Linux"
+                        ]
+                    },
+                    "Python": {
+                        "level": true,
+                        "experience_years": null
+                    },
+                    "JavaScript": {
+                        "level": true,
+                        "experience_years": null
+                    }
+                },
+                "systems": {
+                    "Linux": {
+                        "level": true,
+                        "distributions": [],
+                        "experience_years": null
+                    },
+                    "POSIX": {
+                        "level": false,
+                        "has_pthreads": false,
+                        "has_multithreading": false
+                    }
+                },
+                "networking": {
+                    "TCP_IP": {
+                        "level": false,
+                        "sockets": false
+                    },
+                    "protocols": {
+                        "Modbus_RTU": false,
+                        "Modbus_TCP": false,
+                        "MQTT": false,
+                        "RS485": false
+                    }
+                },
+                "tools": {
+                    "version_control": {
+                        "Git": {
+                            "level": false,
+                            "experience_years": null
+                        },
+                        "SVN": false
+                    },
+                    "compilation_debugging": {
+                        "GCC": {
+                            "level": false
+                        },
+                        "GDB": {
+                            "level": false
+                        }
+                    }
+                },
+                "embedded": {
+                    "general": 3,
+                    "microcontrollers": {
+                        "STM32": false,
+                        "ESP32": false,
+                        "RTOS": false
+                    },
+                    "pcb_design": false
+                }
+            },
+            "domain_expertise": {
+                "energy": {
+                    "general_level": 1,
+                    "photovoltaic": {
+                        "has_pv_experience": false,
+                        "knowledge_areas": []
+                    },
+                    "storage": {
+                        "has_storage_experience": false,
+                        "battery_types": [],
+                        "bms_experience": false
+                    },
+                    "hardware": {
+                        "inverters": false,
+                        "batteries": false,
+                        "meters": false
+                    },
+                    "systems": {
+                        "ems": false,
+                        "scada": false
+                    }
+                }
+            },
+            "qualifications": {
+                "education": {
+                    "academic": {
+                        "has_formal_degree": null,
+                        "level": null,
+                        "fields": []
+                    },
+                    "certifications": []
+                }
+            },
+            "projects": {
+                "energy_projects": [],
+                "embedded_projects": [],
+                "total_count": null
+            },
+            "soft_skills": {
+                "leadership": 2,
+                "communication": 6,
+                "entrepreneurship": false
+            },
+            "culture_fit": {
+                "persona_type": null,
+                "entrepreneurial": false,
+                "process_oriented": false,
+                "detail_below": "Junior / Generalist"
+            },
+            "risk_assessment": {
+                "gaps": [],
+                "red_flags": [],
+                "green_flags": [],
+                "concerns": "Student. C++ and Java experience, but lacks C/Embedded specifics. \n\n**Gap**: No commercial experience, no energy domain knowledge."
+            },
+            "validation": {
+                "alignment_score": null,
+                "alignment_level": "LOW-MEDIUM",
+                "recommendation": "Junior / Intern",
+                "search_verification": "No additional info found."
+            },
+            "raw_data": {
+                "skills_list": [
+                    "C",
+                    "Linux",
+                    "Java",
+                    ".NET",
+                    "Python",
+                    "JavaScript",
+                    "React",
+                    "OpenGL",
+                    "server admin",
+                    "network infrastructure"
+                ],
+                "skills_optional": [
+                    "Selenium"
+                ],
+                "interview_questions": [
+                    "Describe a university project where you used C and what challenges you faced.",
+                    "How do you approach learning a new technical domain (e.g., energy systems)?",
+                    "What is your availability for a full-time role given your military and student obligations?"
+                ],
+                "gap_analysis_detail": [
+                    "No industrial, embedded, or energy sector experience",
+                    "No Modbus, POSIX, pthread, or hardware integration",
+                    "Limited practical C experience"
+                ]
+            }
+        },
+        {
+            "id": "Zuzanna Kot",
+            "metadata": {
+                "name": "Zuzanna Kot",
+                "timestamp_submitted": null,
+                "status": "Intern"
+            },
+            "availability": {
+                "available_in_days": 0,
+                "available_from_text": "Natychmiast",
+                "salary": {
+                    "expected_net_PLN": null,
+                    "currency": "PLN",
+                    "employment_type": null
+                }
+            },
+            "experience": {
+                "similar_role": {
+                    "has_similar": false,
+                    "years": null,
+                    "detail": "Nie"
+                },
+                "energy_sector": {
+                    "has_experience": false,
+                    "years": null,
+                    "projects_count": null
+                },
+                "oze_renewable": {
+                    "has_experience": false,
+                    "years": null
+                },
+                "ems_management": {
+                    "has_experience": false,
+                    "years": null
+                }
+            },
+            "technical_skills": {
+                "languages": {
+                    "C": {
+                        "level": true,
+                        "standard": "C99/C11",
+                        "experience_years": null,
+                        "platforms": [
+                            "Linux"
+                        ]
+                    },
+                    "Python": {
+                        "level": false,
+                        "experience_years": null
+                    },
+                    "JavaScript": {
+                        "level": false,
+                        "experience_years": null
+                    }
+                },
+                "systems": {
+                    "Linux": {
+                        "level": true,
+                        "distributions": [],
+                        "experience_years": null
+                    },
+                    "POSIX": {
+                        "level": false,
+                        "has_pthreads": false,
+                        "has_multithreading": false
+                    }
+                },
+                "networking": {
+                    "TCP_IP": {
+                        "level": false,
+                        "sockets": false
+                    },
+                    "protocols": {
+                        "Modbus_RTU": false,
+                        "Modbus_TCP": false,
+                        "MQTT": false,
+                        "RS485": false
+                    }
+                },
+                "tools": {
+                    "version_control": {
+                        "Git": {
+                            "level": false,
+                            "experience_years": null
+                        },
+                        "SVN": false
+                    },
+                    "compilation_debugging": {
+                        "GCC": {
+                            "level": false
+                        },
+                        "GDB": {
+                            "level": false
+                        }
+                    }
+                },
+                "embedded": {
+                    "general": 2,
+                    "microcontrollers": {
+                        "STM32": false,
+                        "ESP32": false,
+                        "RTOS": false
+                    },
+                    "pcb_design": false
+                }
+            },
+            "domain_expertise": {
+                "energy": {
+                    "general_level": 1,
+                    "photovoltaic": {
+                        "has_pv_experience": false,
+                        "knowledge_areas": []
+                    },
+                    "storage": {
+                        "has_storage_experience": false,
+                        "battery_types": [],
+                        "bms_experience": false
+                    },
+                    "hardware": {
+                        "inverters": false,
+                        "batteries": false,
+                        "meters": false
+                    },
+                    "systems": {
+                        "ems": false,
+                        "scada": false
+                    }
+                }
+            },
+            "qualifications": {
+                "education": {
+                    "academic": {
+                        "has_formal_degree": null,
+                        "level": null,
+                        "fields": []
+                    },
+                    "certifications": []
+                }
+            },
+            "projects": {
+                "energy_projects": [],
+                "embedded_projects": [],
+                "total_count": null
+            },
+            "soft_skills": {
+                "leadership": 1,
+                "communication": 7,
+                "entrepreneurship": false
+            },
+            "culture_fit": {
+                "persona_type": null,
+                "entrepreneurial": false,
+                "process_oriented": false,
+                "detail_below": "Trainee / Student"
+            },
+            "risk_assessment": {
+                "gaps": [],
+                "red_flags": [],
+                "green_flags": [],
+                "concerns": "Student (1st year?). Basic C/C++. \n\n**Gap**: Too junior for the required position."
+            },
+            "validation": {
+                "alignment_score": null,
+                "alignment_level": "LOW",
+                "recommendation": "Intern",
+                "search_verification": "No additional info found."
+            },
+            "raw_data": {
+                "skills_list": [
+                    "C basics",
+                    "C++ basics",
+                    "Linux user",
+                    "MS Office",
+                    "math"
+                ],
+                "skills_optional": [
+                    "HTML",
+                    "CSS",
+                    "teaching/math tutoring"
+                ],
+                "interview_questions": [
+                    "Not recommended for interview for this position."
+                ],
+                "gap_analysis_detail": [
+                    "No practical experience",
+                    "No industrial, embedded, or energy sector knowledge"
+                ]
+            }
+        },
+        {
+            "id": "Dawid Łukasik",
+            "metadata": {
+                "name": "Dawid Łukasik",
+                "timestamp_submitted": null,
+                "status": "Reject"
+            },
+            "availability": {
+                "available_in_days": 0,
+                "available_from_text": "Natychmiast",
+                "salary": {
+                    "expected_net_PLN": null,
+                    "currency": "PLN",
+                    "employment_type": null
+                }
+            },
+            "experience": {
+                "similar_role": {
+                    "has_similar": false,
+                    "years": null,
+                    "detail": "Nie"
+                },
+                "energy_sector": {
+                    "has_experience": false,
+                    "years": null,
+                    "projects_count": null
+                },
+                "oze_renewable": {
+                    "has_experience": false,
+                    "years": null
+                },
+                "ems_management": {
+                    "has_experience": false,
+                    "years": null
+                }
+            },
+            "technical_skills": {
+                "languages": {
+                    "C": {
+                        "level": false,
+                        "standard": null,
+                        "experience_years": null,
+                        "platforms": []
+                    },
+                    "Python": {
+                        "level": false,
+                        "experience_years": null
+                    },
+                    "JavaScript": {
+                        "level": false,
+                        "experience_years": null
+                    }
+                },
+                "systems": {
+                    "Linux": {
+                        "level": false,
+                        "distributions": [],
+                        "experience_years": null
+                    },
+                    "POSIX": {
+                        "level": false,
+                        "has_pthreads": false,
+                        "has_multithreading": false
+                    }
+                },
+                "networking": {
+                    "TCP_IP": {
+                        "level": false,
+                        "sockets": false
+                    },
+                    "protocols": {
+                        "Modbus_RTU": false,
+                        "Modbus_TCP": false,
+                        "MQTT": false,
+                        "RS485": false
+                    }
+                },
+                "tools": {
+                    "version_control": {
+                        "Git": {
+                            "level": false,
+                            "experience_years": null
+                        },
+                        "SVN": false
+                    },
+                    "compilation_debugging": {
+                        "GCC": {
+                            "level": false
+                        },
+                        "GDB": {
+                            "level": false
+                        }
+                    }
+                },
+                "embedded": {
+                    "general": 2,
+                    "microcontrollers": {
+                        "STM32": false,
+                        "ESP32": false,
+                        "RTOS": false
+                    },
+                    "pcb_design": false
+                }
+            },
+            "domain_expertise": {
+                "energy": {
+                    "general_level": 3,
+                    "photovoltaic": {
+                        "has_pv_experience": false,
+                        "knowledge_areas": []
+                    },
+                    "storage": {
+                        "has_storage_experience": false,
+                        "battery_types": [],
+                        "bms_experience": false
+                    },
+                    "hardware": {
+                        "inverters": false,
+                        "batteries": false,
+                        "meters": false
+                    },
+                    "systems": {
+                        "ems": false,
+                        "scada": false
+                    }
+                }
+            },
+            "qualifications": {
+                "education": {
+                    "academic": {
+                        "has_formal_degree": null,
+                        "level": null,
+                        "fields": []
+                    },
+                    "certifications": []
+                }
+            },
+            "projects": {
+                "energy_projects": [],
+                "embedded_projects": [],
+                "total_count": null
+            },
+            "soft_skills": {
+                "leadership": 2,
+                "communication": 5,
+                "entrepreneurship": false
+            },
+            "culture_fit": {
+                "persona_type": null,
+                "entrepreneurial": false,
+                "process_oriented": false,
+                "detail_below": "Trainee / Support"
+            },
+            "risk_assessment": {
+                "gaps": [],
+                "red_flags": [],
+                "green_flags": [],
+                "concerns": "Technician/Student. Experience as Electrician Helper (Energy domain exposure). \n\n**Gap**: Very little programming experience shown."
+            },
+            "validation": {
+                "alignment_score": null,
+                "alignment_level": "LOW",
+                "recommendation": "Reject",
+                "search_verification": "No additional info found."
+            },
+            "raw_data": {
+                "skills_list": [
+                    "electrical installation",
+                    "maintenance",
+                    "technical support",
+                    "IT support"
+                ],
+                "skills_optional": [],
+                "interview_questions": [
+                    "Not recommended for interview for this position."
+                ],
+                "gap_analysis_detail": [
+                    "No C, Linux, POSIX, or Modbus",
+                    "No programming or software engineering experience",
+                    "No energy sector or hardware integration"
+                ]
+            }
+        }
+    ]
+}

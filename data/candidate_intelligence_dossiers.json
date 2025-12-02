@@ -1,0 +1,368 @@
+{
+  "job_requirements_summary": {
+    "must_have": [
+      "C Language (C99/C11)",
+      "POSIX API",
+      "Linux experience",
+      "Energy sector knowledge (PV, storage, power control, energy management)",
+      "Multithreading (pthread)",
+      "Network communication (sockets, TCP/IP)",
+      "Git, GCC, GDB"
+    ],
+    "nice_to_have": [
+      "Modbus TCP/RTU protocol",
+      "Energy sector project experience",
+      "PV installations and storage system knowledge",
+      "Hardware integration (inverters, batteries, meters)"
+    ],
+    "salary_range": "12000-31000 PLN gross (B2B or UoP)",
+    "work_mode": "Remote or Hybrid (Krakow)",
+    "scope": [
+      "Modbus protocol implementation",
+      "PV and storage control",
+      "Energy flow management algorithms",
+      "EMS integration",
+      "Testing and optimization"
+    ]
+  },
+  "candidate_intelligence_dossiers": [
+    {
+      "name": "Artur Piskorski",
+      "validation_status": {
+        "alignment": "HIGH",
+        "justification": "Direct experience with distributed energy network management, Modbus TCP/RTU, LiFePO4 battery storage project, mobile app for OZE monitoring, and ESP32/Linux integration. Cover letter explicitly targets this exact position and demonstrates understanding of IEC standards for energy systems."
+      },
+      "bigger_picture_narrative": {
+        "persona": "Builder / Innovator",
+        "narrative": "Self-taught entrepreneur and maker who has transitioned from fiber optic network building to IoT and energy systems. Demonstrates end-to-end project ownership: from PCB design and embedded C (RTOS, ~3000 LOC) to mobile app development and cloud integration. Has a clear vision for distributed energy systems with security (IEC 62443, IEC 62351). Not a traditional 'corporate' engineer—more of a hands-on prototyper and integrator.",
+        "culture_fit": "Fits the profile of a startup/scaleup environment well. Comfortable with ambiguity, building MVPs, and working across the stack. May require structure for larger, process-heavy projects."
+      },
+      "external_evidence": {
+        "technical_hard_skills": [
+          "Self-built LiFePO4 storage with own BMS software (C, FreeRTOS)",
+          "Direct Modbus RTU/TCP and MQTT integration with industrial devices",
+          "Mobile app (no-code) with Firebase, REST API, real-time monitoring",
+          "Server on Linux (Armbian, Debian)",
+          "Fiber optic network deployment (2011-2023) indicates infrastructure know-how"
+        ],
+        "soft_skills_culture": [
+          "Entrepreneurial (own business since 2011)",
+          "Strong written communication (cover letter cites specific IEC standards)",
+          "Continuous learner (AI/LLM integration, no-code/low-code)"
+        ]
+      },
+      "gap_analysis": [
+        "No explicit POSIX/pthread experience documented (could be implicit in Linux work)",
+        "No formal academic background in software (polytechnic: incomplete, technical school)",
+        "Limited evidence of GCC/GDB use (embedded/RTOS likely uses it, but not stated)",
+        "May need mentorship on code quality and large-project process"
+      ],
+      "interview_strategy": [
+        "Walk me through a specific debugging scenario in your energy storage project. What tools did you use (GDB, oscilloscope, serial logs)?",
+        "How would you design a multithreaded Modbus polling loop in C for 10+ devices with different response times?",
+        "Describe how you would structure a codebase for a multi-component EMS with unit tests and CI."
+      ],
+      "additional_info": {
+        "avail_from": "~30 days",
+        "expected_net": null,
+        "exp_similar": "Yes, >1 year"
+      }
+    },
+    {
+      "name": "Magdalena Nowakowska",
+      "validation_status": {
+        "alignment": "MEDIUM-HIGH",
+        "justification": "Strong C and Linux background, explicit POSIX/pthreads experience, network programming (sockets, WebSockets). However, no direct energy sector, Modbus, or hardware integration experience. Would need to learn domain, but has the core systems skills."
+      },
+      "bigger_picture_narrative": {
+        "persona": "Specialist / Maintainer",
+        "narrative": "Experienced C/PHP developer with academic (MSc Informatics) and industrial background (telecom, enterprise apps, budgetary systems). Strong analytical skills, project management, and code design. Publications in IT/logistics suggest academic rigor. Primarily a software person, not a hardware integrator.",
+        "culture_fit": "Good for structured, documentation-heavy projects. May not be as comfortable in rapid prototyping or maker-style environments. Strong process and quality orientation."
+      },
+      "external_evidence": {
+        "technical_hard_skills": [
+          "Multithreading (pthreads, basic CUDA)",
+          "Linux/LAMP stack",
+          "WebSockets, HTTP, REST",
+          "Project manager experience",
+          "SQL, UML, Git, SVN"
+        ],
+        "soft_skills_culture": [
+          "Instructor/teacher experience (Policealne Studium)",
+          "Scientific publications (ERP, robotics, e-commerce)"
+        ]
+      },
+      "gap_analysis": [
+        "No energy sector, OZE, Modbus, or hardware integration experience",
+        "No embedded systems or PCB/device work",
+        "Would need significant onboarding into the domain"
+      ],
+      "interview_strategy": [
+        "How would you approach learning a new industrial protocol (like Modbus) with limited documentation?",
+        "Describe a project where you had to integrate software with external hardware or real-world systems.",
+        "Walk me through how you debug race conditions in a multithreaded C application."
+      ],
+      "additional_info": {
+        "avail_from": "2025-11-20",
+        "expected_net": 15000,
+        "exp_similar": "Yes, >1 year"
+      }
+    },
+    {
+      "name": "Kamil Godek",
+      "validation_status": {
+        "alignment": "MEDIUM",
+        "justification": "Strong C/Python/embedded background, TCP/IP, PCB, STM32. Familiar with industrial automation (ELPLC, Cognex camera integration, robot communication). Has worked with Modbus (not explicitly OZE). No direct energy sector or storage project experience."
+      },
+      "bigger_picture_narrative": {
+        "persona": "Specialist / Builder",
+        "narrative": "Embedded developer with electronics background (MSc Electronics/Telecom, AGH). Experience in both industrial automation (machine vision, robot integration) and AI/ML for vision. Strong in low-level C and Python, CAD/PCB, and diagnostics. LinkedIn confirms active job search and embedded/AI focus.",
+        "culture_fit": "Good for technical deep dives and hands-on integration. Not a domain expert in energy, but can transfer skills. May need domain mentorship."
+      },
+      "external_evidence": {
+        "technical_hard_skills": [
+          "C/Python, STM32, ESP32, PID control",
+          "Cognex 3D-A5030 vision, TCP/IP server for robot communication",
+          "PCB design (Altium, Eagle)",
+          "EPLAN, CNC, industrial automation",
+          "AI/ML (YOLO, OpenCV, PyTorch)"
+        ],
+        "soft_skills_culture": [
+          "Certifications (IPC, SEP, soldering, CNC)",
+          "LinkedIn: active job seeker, clear technical profile"
+        ]
+      },
+      "gap_analysis": [
+        "No explicit OZE, PV, or energy storage project experience",
+        "No POSIX/pthread experience mentioned",
+        "Embedded work is on microcontrollers, not Linux system programming",
+        "Recent work is warehouse logistics (temporary), not engineering"
+      ],
+      "interview_strategy": [
+        "How would you approach integrating a new Modbus device (e.g., a smart meter) into an existing EMS?",
+        "Walk me through your TCP/IP server implementation for the Cognex camera—what challenges did you face?",
+        "How would you manage real-time data flow from 20+ inverters in a distributed PV network?"
+      ],
+      "additional_info": {
+        "avail_from": "immediately",
+        "expected_net": null,
+        "exp_similar": "No"
+      }
+    },
+    {
+      "name": "Ihor Horalevych",
+      "validation_status": {
+        "alignment": "MEDIUM",
+        "justification": "Extensive automation/PLC/SCADA/microcontroller background (40+ years), C and assembly for embedded, project design, telemetry. However, no explicit OZE, Modbus, or EMS experience. Energy-adjacent (HVAC, heating, pumping), but not directly in solar/storage."
+      },
+      "bigger_picture_narrative": {
+        "persona": "Veteran Specialist / Builder",
+        "narrative": "Highly experienced automation engineer (since 1983), with deep expertise in industrial control, SCADA, PLC, and embedded systems. Has run own automation company. Experience in HVAC, food/beverage, CNC, and industrial production. Not a software developer in the modern sense—more of a control systems integrator.",
+        "culture_fit": "May be overqualified for junior/mid roles, but could be valuable for system design and hardware integration. Polish B1, Ukrainian/Russian fluent. May need adaptation to modern software practices (Git, CI/CD)."
+      },
+      "external_evidence": {
+        "technical_hard_skills": [
+          "TIA Portal, CoDeSys, GX Works, Automation Studio, SIMATIC WinCC, Pc-Vue",
+          "STM32, FPGA, PCB design (EasyEDA, Altium, PCAD)",
+          "C, Assembler for embedded",
+          "SCADA, telemetry, serial/RS-232/RS-485",
+          "SEP up to 1kV (electrical qualifications)"
+        ],
+        "soft_skills_culture": [
+          "Entrepreneurial (own automation company)",
+          "Languages: Polish (fluent), Ukrainian, Russian, English (B1)"
+        ]
+      },
+      "gap_analysis": [
+        "No explicit Modbus, OZE, or EMS experience",
+        "No Git, GCC, GDB or modern Linux system programming",
+        "May be less familiar with modern software engineering workflows",
+        "OLX-generated CV lacks detail (use main CV instead)"
+      ],
+      "interview_strategy": [
+        "Describe a project where you integrated serial communication (RS-485, Modbus RTU) with a SCADA system.",
+        "How would you adapt your PLC/SCADA experience to a Linux-based energy management platform?",
+        "What is your experience with version control and collaborative code development?"
+      ],
+      "additional_info": {
+        "avail_from": "immediately",
+        "expected_net": null,
+        "exp_similar": "No"
+      }
+    },
+    {
+      "name": "Jakub Sobczuk",
+      "validation_status": {
+        "alignment": "LOW-MEDIUM",
+        "justification": "Student with some C, Linux, and server admin experience. No embedded, energy sector, or Modbus experience. Primarily web/fullstack orientation."
+      },
+      "bigger_picture_narrative": {
+        "persona": "Junior / Generalist",
+        "narrative": "Currently a student at Warsaw Polytechnic (IT, 4th year, non-stationary). Also a professional soldier (cadet, air traffic control). C experience limited to university projects. Main strengths are in Java/.NET/JavaScript. Looking for internship or junior role.",
+        "culture_fit": "Good attitude and discipline (military), but lacks depth for this position. Could be considered for a more junior or auxiliary role if company has bandwidth to mentor."
+      },
+      "external_evidence": {
+        "technical_hard_skills": [
+          "C (university projects, OpenGL)",
+          "Linux server admin",
+          "Java, .NET, Python, JavaScript/React",
+          "Network infrastructure"
+        ],
+        "soft_skills_culture": [
+          "Military discipline and teamwork",
+          "Student seeking internship"
+        ]
+      },
+      "gap_analysis": [
+        "No industrial, embedded, or energy sector experience",
+        "No Modbus, POSIX, pthread, or hardware integration",
+        "Limited practical C experience"
+      ],
+      "interview_strategy": [
+        "Describe a university project where you used C and what challenges you faced.",
+        "How do you approach learning a new technical domain (e.g., energy systems)?",
+        "What is your availability for a full-time role given your military and student obligations?"
+      ],
+      "additional_info": {
+        "avail_from": "immediately",
+        "expected_net": 5000,
+        "exp_similar": "Yes, <1 year"
+      }
+    },
+    {
+      "name": "Dawid Łukasik",
+      "validation_status": {
+        "alignment": "LOW",
+        "justification": "No C, Linux, or programming experience. Electrician's assistant, basic IT support. Does not meet technical requirements."
+      },
+      "bigger_picture_narrative": {
+        "persona": "Trainee / Support",
+        "narrative": "Recent technical school graduate (IT Technician), currently studying Applied Informatics. Worked as electrician's assistant (Zbartech). No software development or system programming experience.",
+        "culture_fit": "Not a fit for this role. May be suitable for field support or installation technician roles in the future."
+      },
+      "external_evidence": {
+        "technical_hard_skills": [
+          "Basic electrical installation support",
+          "IT support"
+        ],
+        "soft_skills_culture": [
+          "Creativity, independence (self-reported)"
+        ]
+      },
+      "gap_analysis": [
+        "No C, Linux, POSIX, or Modbus",
+        "No programming or software engineering experience",
+        "No energy sector or hardware integration"
+      ],
+      "interview_strategy": [
+        "Not recommended for interview for this position."
+      ],
+      "additional_info": {
+        "avail_from": "immediately",
+        "expected_net": null,
+        "exp_similar": false
+      }
+    },
+    {
+      "name": "Zuzanna Kot",
+      "validation_status": {
+        "alignment": "LOW",
+        "justification": "First-year IT student with only basic C/C++ and Linux exposure. No relevant project or work experience."
+      },
+      "bigger_picture_narrative": {
+        "persona": "Trainee / Student",
+        "narrative": "Currently a first-year student at AGH (Technical Informatics). Strong math tutoring background, but no practical software engineering or systems experience.",
+        "culture_fit": "Not a fit for this role. May be suitable for internship or future consideration after more academic progress."
+      },
+      "external_evidence": {
+        "technical_hard_skills": [
+          "C/C++ basics (academic only)",
+          "Linux user",
+          "MS Office"
+        ],
+        "soft_skills_culture": [
+          "Math tutoring, punctuality, organization"
+        ]
+      },
+      "gap_analysis": [
+        "No practical experience",
+        "No industrial, embedded, or energy sector knowledge"
+      ],
+      "interview_strategy": [
+        "Not recommended for interview for this position."
+      ],
+      "additional_info": {
+        "avail_from": "immediately",
+        "expected_net": null,
+        "exp_similar": false
+      }
+    }
+  ],
+  "qa_evaluation": {
+    "meta": {
+      "role": "Senior HR Director and Quality Assurance Auditor",
+      "task": "Evaluate the Candidate Intelligence Dossiers for depth, relevance, critical thinking, and hallucination risk."
+    },
+    "evaluation": {
+      "depth_of_insight": {
+        "strongest": [
+          "Artur Piskorski",
+          "Magdalena Nowakowska",
+          "Kamil Godek",
+          "Ihor Horalevych"
+        ],
+        "weakest": [
+          "Dawid Łukasik",
+          "Zuzanna Kot"
+        ],
+        "notes": "The top four dossiers provide substantial context beyond CV summary—persona typing, external evidence (LinkedIn, publications), gap analysis, and tailored interview questions. The bottom two are correctly flagged as non-fits with minimal analysis needed."
+      },
+      "relevance_to_jd": {
+        "strongest": "Artur Piskorski",
+        "notes": "The Piskorski dossier directly maps skills to JD requirements: Modbus, energy storage, EMS, Linux, embedded C. Cover letter analysis adds validation. Other dossiers tie skills to JD but with more inference required."
+      },
+      "critical_thinking": {
+        "notes": "All dossiers include a 'gap analysis' section. Risks are identified for Piskorski (no formal academic background, possible need for mentorship), Nowakowska (no domain knowledge), Godek (recent non-engineering work), Horalevych (modern tooling gaps). No overly optimistic assessments detected."
+      },
+      "hallucination_check": {
+        "notes": "External evidence is based on CV content and LinkedIn snippets. No fabricated claims observed. For Nowakowska, LinkedIn search returned unrelated profiles (Humanist, Business Director)—correctly not cited. For Godek, LinkedIn profile confirmed embedded/AI focus. For Horalevych, LinkedIn confirms Electronic Engineer at IRGA. Jakub Sobczuk LinkedIn search returned unrelated profiles (R&D Manager, blind programmer); correctly not cited."
+      }
+    },
+    "strongest_analysis": {
+      "candidate": "Artur Piskorski",
+      "why_valuable": [
+        "Direct OZE/EMS/Modbus project experience (not inferred, but documented in CV and cover letter)",
+        "Cover letter demonstrates understanding of IEC 62443, IEC 62351, and industry standards",
+        "End-to-end project ownership: PCB, embedded C (RTOS), mobile app, cloud, Linux server",
+        "Gap analysis is honest: no formal degree, possible need for mentorship on code quality",
+        "Interview questions are specific and probe both technical depth and process maturity"
+      ]
+    },
+    "weak_or_superficial_analyses": {
+      "candidates": [
+        "Dawid Łukasik",
+        "Zuzanna Kot"
+      ],
+      "notes": "These are correctly flagged as non-fits. Analysis is brief, but appropriate given the lack of relevant experience. No further investigation is warranted."
+    },
+    "refined_summary_top_candidate": {
+      "candidate": "Artur Piskorski",
+      "why_we_should_hire": [
+        "Direct, hands-on experience with distributed energy management systems (Modbus RTU/TCP, MQTT, battery storage, mobile monitoring)",
+        "Built own LiFePO4 storage with custom BMS software in C (FreeRTOS, ~3000 LOC)",
+        "Linux server deployment (Armbian, Debian), embedded hardware integration (ESP32, RS-485)",
+        "Entrepreneurial background: ran own networking business for 12+ years, self-directed learner",
+        "Cover letter shows awareness of IEC 62443/62351 (industrial cybersecurity and energy communication standards)",
+        "Strong fit for startup/scaleup culture: comfortable with ambiguity, end-to-end ownership, MVP mindset"
+      ],
+      "why_we_should_worry": [
+        "No formal academic background in software engineering (polytechnic incomplete)",
+        "No explicit POSIX/pthread experience documented (may be implicit in RTOS/Linux work)",
+        "No evidence of GCC/GDB use (likely uses, but not stated)",
+        "May need mentorship on code quality, testing, and large-project process",
+        "Availability in ~30 days, not immediately"
+      ],
+      "recommendation": "Invite for technical interview. Focus on debugging, multithreading design, and code quality practices. Assess willingness to work within structured process. If interview confirms technical depth and process adaptability, strong hire recommendation."
+    }
+  }
+}
