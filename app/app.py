@@ -210,12 +210,23 @@ with tab3:
             
             # Display profile image at full width if available
             image_filename = row['name'].replace(" ", "_") + ".png"
-            image_path = os.path.join("images", image_filename)
             
-            if os.path.exists(image_path):
-                # Display image filling the entire width
-                st.image(image_path, width='stretch', caption=row['name'])
-            else:
+            # Try multiple path options for images
+            possible_image_paths = [
+                os.path.join("images", image_filename),      # From app/ directory
+                os.path.join("app", "images", image_filename), # From root directory
+                image_filename                                # Fallback
+            ]
+            
+            image_found = False
+            for image_path in possible_image_paths:
+                if os.path.exists(image_path):
+                    # Display image filling the entire width
+                    st.image(image_path, use_column_width=True, caption=row['name'])
+                    image_found = True
+                    break
+            
+            if not image_found:
                 st.info("No profile image available")
             
             st.divider()
