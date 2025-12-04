@@ -212,10 +212,13 @@ with tab3:
             image_filename = row['name'].replace(" ", "_") + ".png"
             
             # Try multiple path options for images
+            # Try multiple path options for images
+            script_dir = os.path.dirname(os.path.abspath(__file__))
             possible_image_paths = [
-                os.path.join("images", image_filename),      # From app/ directory
-                os.path.join("app", "images", image_filename), # From root directory
-                image_filename                                # Fallback
+                os.path.join(script_dir, "images", image_filename),      # app/images/
+                os.path.join("images", image_filename),                  # Relative to CWD
+                os.path.join("app", "images", image_filename),           # Relative to Root
+                image_filename                                           # Fallback
             ]
             
             image_found = False

@@ -1,0 +1,297 @@
+{
+  "job_requirements_summary": {
+    "must_have": [
+      "C Language (C99/C11)",
+      "POSIX API",
+      "Linux experience",
+      "Energy sector knowledge (PV, storage, power control, energy management)",
+      "Multithreading (pthread)",
+      "Network communication (sockets, TCP/IP)",
+      "Git, GCC, GDB"
+    ],
+    "nice_to_have": [
+      "Modbus TCP/RTU protocol",
+      "Energy sector project experience",
+      "PV installations and storage system knowledge",
+      "Hardware integration (inverters, batteries, meters)"
+    ],
+    "salary_range": "12000-31000 PLN gross (B2B or UoP)",
+    "work_mode": "Remote or Hybrid (Krakow)",
+    "scope": [
+      "Modbus protocol implementation",
+      "PV and storage control",
+      "Energy flow management algorithms",
+      "EMS integration",
+      "Testing and optimization"
+    ]
+  },
+  "candidate_intelligence_dossiers": [
+    {
+      "name": "Arkadiusz Tyran",
+      "validation_status": {
+        "alignment": "HIGH",
+        "justification": "Strong embedded C/C++ background with 10+ years IoT experience at reputable companies. Currently works at needCode (Software Application Engineer for Qorvo). Deep expertise in BLE, Zigbee, Matter, FreeRTOS, Linux platforms. No direct energy/Modbus but strongest transferable embedded/IoT skills. Located in Kraków area (AGH alumnus)."
+      },
+      "bigger_picture_narrative": {
+        "persona": "Senior Specialist / IoT Expert",
+        "narrative": "Highly experienced embedded systems engineer (10+ years) specializing in IoT and Smart Home technologies. Currently works at needCode, a leading Kraków-based IoT development company (9+ years operating, 25+ senior developers, certified Qorvo partner). Master's degree in Electronics from AGH. Career progression: Silvair (2013-2018, BLE Mesh pioneer) → InPost (2018-2022, parcel machine firmware) → Qorvo/needCode (2022-present, IoT microcontrollers). Participated in BLE Mesh standardization and was part of the first BLE Mesh certification team. Company (needCode) specializes in UWB, BLE, Zigbee, Matter—exactly the wireless protocols relevant to modern IoT/energy gateways.",
+        "culture_fit": "Professional, experienced in startup/scaleup environments (Silvair, needCode). Used to working with international clients (needCode serves US, EU markets). Kraków-based, which is perfect for hybrid work model. AGH network provides strong local tech community connections. Company culture suggests collaborative, hands-on engineering approach."
+      },
+      "external_evidence": {
+        "technical_hard_skills": [
+          "C/C++ embedded systems (bare-metal, FreeRTOS, Zephyr) - 10+ years verified",
+          "Linux platform development (Smart Home Gateway: BLE, Zigbee, OpenThread integration)",
+          "Wireless protocols: BLE, BLE Mesh (standardization participation), Zigbee, Matter, RF4CE, UWB",
+          "IoT microcontrollers: Qorvo chips, nRF52, ESP32",
+          "Python (automated testing, Behave, scripting)",
+          "Angular/TypeScript (front-end, UX/UI)",
+          "Hardware: PCB soldering, measurements, hardware R&D",
+          "Network communication: REST APIs, TCP/IP, client-server architectures",
+          "Git, CI/CD, automated testing frameworks",
+          "SDK development and maintenance (Qorvo SDKs for Remote Controls, Smart Home Gateways)"
+        ],
+        "soft_skills_culture": [
+          "Fluent English, multinational environment (needCode clients in 7+ countries)",
+          "Customer Success experience (Qorvo global clients)",
+          "BLE SIG participation (standards body engagement)",
+          "Collaborative team player (needCode emphasizes team collaboration)",
+          "National Electronics Olympiad finalist (2012) - demonstrates deep technical passion",
+          "AGH alumnus - strong local Kraków tech network"
+        ],
+        "online_presence": {
+          "linkedin": "https://pl.linkedin.com/in/arkadiusz-tyran-9985a1126 (verified active)",
+          "company": "needCode - ISO 9001/27001 certified, Qorvo certified partner, 40+ completed projects",
+          "company_focus": "UWB, BLE, Zigbee, Matter, embedded software, IoT strategic roadmap",
+          "github_public": "Not found in public searches (likely private repositories for commercial work)",
+          "professional_reputation": "Works at well-regarded Kraków IoT company with strong industry partnerships"
+        }
+      },
+      "gap_analysis": [
+        "No direct energy sector, OZE, PV, or storage experience - NEEDS DOMAIN TRAINING",
+        "No explicit Modbus TCP/RTU protocol experience - TRAINABLE (similar to other industrial protocols he's worked with)",
+        "No documented POSIX/pthread experience (likely implicit in Linux Gateway work) - NEEDS VERIFICATION IN INTERVIEW",
+        "No explicit GCC/GDB usage stated (embedded work implies this) - VERIFY IN INTERVIEW",
+        "Currently employed at Qorvo/needCode (since Aug 2022) - NOTICE PERIOD UNKNOWN",
+        "Salary expectations likely 20,000-31,000 PLN range given seniority and current role",
+        "Age ~32-33 (graduated 2012-2016 AGH)"
+      ],
+      "interview_strategy": [
+        "TECHNICAL DEPTH: Walk me through your Smart Home Gateway Linux platform project. How did you handle concurrent BLE/Zigbee/OpenThread communication? What threading model did you use?",
+        "PROTOCOL LEARNING: You have deep BLE Mesh experience. How would you approach learning Modbus TCP/RTU? What are the key differences between Modbus and protocols you've worked with?",
+        "DEBUGGING: Describe your most challenging firmware debugging scenario at Qorvo or InPost. What tools did you use (GDB, oscilloscope, logic analyzer)?",
+        "SYSTEMS ARCHITECTURE: How would you design a Linux-based gateway for an energy management system that needs to poll 20+ Modbus devices (inverters, batteries, meters) with different response times?",
+        "HARDWARE INTEGRATION: Your CV mentions PCB soldering and hardware R&D. Describe a project where you had to debug hardware-software integration issues.",
+        "CAREER LOGISTICS: What is your notice period at needCode? What attracts you to energy sector work? What are your salary expectations?",
+        "DOMAIN KNOWLEDGE: What do you know about photovoltaic systems, battery storage, or energy management? Are you willing to learn this domain?"
+      ],
+      "additional_info": {
+        "avail_from": "Unknown - currently employed (likely 1-3 month notice period)",
+        "expected_net": "Likely 20,000-31,000 PLN gross range (senior level)",
+        "exp_similar": "No (no direct energy sector experience)",
+        "location": "Kraków (confirmed - AGH alumnus, needCode employee)",
+        "contact": "arkadiusz.tyran@gmail.com, 788 498 873",
+        "linkedin": "https://www.linkedin.com/in/arkadiusz-tyran-9985a1126",
+        "age_estimate": "~32-33 years old",
+        "company_verification": "needCode is real, reputable Kraków IoT company (founded 2015, 10-49 employees, ISO certified, Qorvo partner)"
+      },
+      "recruiter_notes": {
+        "red_flags": "None identified. Solid career progression, stable employment, real company.",
+        "green_flags": "LOCAL TO KRAKÓW, 10+ years experience, works at reputable IoT company, AGH degree, perfect IoT/embedded background for energy gateway work",
+        "competitive_intel": "Currently at stable, interesting job (IoT for Qorvo). Will need compelling offer: challenging energy domain + competitive salary + growth opportunity. May have other offers.",
+        "urgency": "HIGH PRIORITY CANDIDATE - Schedule interview ASAP before competitors approach him"
+      }
+    },
+    {
+      "name": "Mikita Khaladzenka",
+      "validation_status": {
+        "alignment": "LOW",
+        "justification": "Very junior profile (23 years old, 6 months total experience). Currently 3rd year student at WSZ Kraków. Limited C/C++ exposure from 3-month internship. No embedded, Linux system programming, POSIX, multithreading, or energy sector experience. Not ready for mid-level position, but could be considered for junior/intern role with heavy mentorship."
+      },
+      "bigger_picture_narrative": {
+        "persona": "Junior / Student / Early Career",
+        "narrative": "Young developer (DOB: 21.06.2001, 23 years old) in early career stage. Currently studying Computer Science at WSZ Kraków (Wyższa Szkoła Zarządzania i Bankowości - private business/management school, not technical polytechnic). Limited commercial experience: 3-month C++ internship at Instytut Fotonowy (optical equipment manufacturer for research labs) doing bug fixes and refactoring, followed by 3-month network support role at Kb-System (Sep-Nov 2025) helping with basic network issues. Electrical vocational background (low-voltage electrician from TZGK Grodno, Belarus) could be asset for understanding hardware, but no evidence of practical application. Multilingual (Russian native, Polish/English intermediate) due to Belarusian origin.",
+        "culture_fit": "Eager to learn, multilingual, seems motivated. However, very junior with limited depth. Would need extensive mentorship and structured onboarding. May be better suited for internship program than immediate contributor role. Currently studying, so availability/commitment may be limited."
+      },
+      "external_evidence": {
+        "technical_hard_skills": [
+          "C/C++ (3-month internship: bug fixes, refactoring, code review participation)",
+          "Qt Framework (mentioned but no commercial experience)",
+          "Python, Django (academic/personal projects, no commercial use)",
+          "Bash scripting (basic)",
+          "Git, CMake, CI/CD pipelines (3-month exposure at internship)",
+          "Network support basics (monitoring, basic troubleshooting) - 3 months at Kb-System",
+          "Electrical background (vocational: low-voltage electrician) - no evidence of recent use"
+        ],
+        "soft_skills_culture": [
+          "Multilingual: Russian (native), Polish (intermediate), English (intermediate)",
+          "Self-assessed: multitasking, works under pressure, team player",
+          "Passionate about learning (self-described)",
+          "Located in Kraków (good for hybrid work)",
+          "Young (23 years old) - high learning potential but limited experience"
+        ],
+        "online_presence": {
+          "linkedin": "https://www.linkedin.com/in/mikita-khaladzenka-2b6584345/ (basic profile, limited connections)",
+          "github_public": "No public GitHub found under this name (searched: Mikita Khaladzenka, Khaladzenka github)",
+          "company_verification": {
+            "Instytut Fotonowy": "Real company in Kraków (ul. Na Mostkach 32A), manufactures optical research equipment, small company (Zbigniew Karkuszewski CEO)",
+            "Kb-System": "Unclear - multiple companies with similar names, network support role may be outsourced/contract"
+          },
+          "professional_reputation": "No public code portfolio, publications, or technical community presence found"
+        }
+      },
+      "gap_analysis": [
+        "CRITICAL: Only 6 months total commercial experience (both in 2025) - EXTREMELY JUNIOR",
+        "NO Linux system programming or POSIX API experience",
+        "NO multithreading (pthread) experience - CORE REQUIREMENT MISSING",
+        "NO network programming (sockets, TCP/IP at application level) - CORE REQUIREMENT MISSING",
+        "NO energy sector, OZE, Modbus, or EMS knowledge",
+        "NO embedded systems or hardware integration experience (despite electrical vocational training)",
+        "Currently a student (3rd year) - AVAILABILITY LIMITED, may prioritize studies",
+        "No public code portfolio or GitHub - CANNOT ASSESS CODE QUALITY",
+        "No GCC/GDB debugging experience documented",
+        "Very recent internship (Jan-Mar 2025) - STILL BUILDING FOUNDATIONS",
+        "WSZ is business/management school, not technical polytechnic - WEAKER CS FOUNDATION than AGH/PW"
+      ],
+      "interview_strategy": [
+        "INTERNSHIP ASSESSMENT: Walk me through a specific technical problem you solved during your Instytut Fotonowy internship. What C++ features did you work with?",
+        "FOUNDATIONAL KNOWLEDGE: Explain the difference between processes and threads. Have you written any multithreaded code?",
+        "LEARNING APPROACH: How would you approach learning a new domain like energy management systems? Can you give an example of something complex you learned recently?",
+        "CODE REVIEW: Can you show us any personal projects or code samples? GitHub, school projects, anything to assess your coding ability?",
+        "AVAILABILITY: You're currently studying (3rd year). What is your availability? Are you looking for part-time, internship, or full-time work?",
+        "CAREER GOALS: Where do you see yourself in 2-3 years? What attracted you to this energy/embedded systems role?"
+      ],
+      "additional_info": {
+        "avail_from": "Unknown - currently studying (likely part-time or after graduation)",
+        "expected_net": "Likely 6,000-12,000 PLN range (junior/intern level)",
+        "exp_similar": "No",
+        "location": "Kraków (confirmed)",
+        "contact": "mikita.khaladzenka@gmail.com, +48 731 932 079",
+        "linkedin": "https://www.linkedin.com/in/mikita-khaladzenka-2b6584345/",
+        "age": "23 years old (DOB: 21.06.2001)",
+        "education_status": "3rd year (likely graduates 2026), WSZ Kraków (private school, not top-tier technical university)"
+      },
+      "recruiter_notes": {
+        "red_flags": "EXTREMELY JUNIOR (6 months experience), no Linux/POSIX/pthread (core requirements), currently studying (availability concerns), no public code portfolio, weak CS educational background (WSZ not AGH/PW)",
+        "green_flags": "Local to Kraków, multilingual, seems motivated to learn, electrical background could help with hardware understanding, young with growth potential",
+        "recommendation": "NOT SUITABLE FOR MID-LEVEL POSITION. Consider only if: (1) creating junior/intern program, (2) can provide 6+ months intensive mentorship, (3) okay with part-time during school year. Otherwise, PASS.",
+        "alternative_use": "Could be summer intern or after graduation (2026) for junior role if company builds training program"
+      }
+    },
+    {
+      "name": "Fryderyk Musiał",
+      "validation_status": {
+        "alignment": "MEDIUM",
+        "justification": "Strong academic/research background (Master's UVSQ Paris-Saclay, HPC R&D at Li-PaRAD laboratory). Deep C/C++ and low-level optimization expertise (assembly x86/ARM, OpenMPI, OpenMP). However, NO commercial embedded systems experience, NO energy sector knowledge, NO Modbus/industrial protocols. HPC research focus is different paradigm from real-time embedded systems. Would need significant domain retraining despite strong fundamentals."
+      },
+      "bigger_picture_narrative": {
+        "persona": "Academic Researcher / HPC Specialist",
+        "narrative": "Highly educated multilingual computer engineer (French as second native language, fluent English TOEIC 990/990, German B1, Polish, Russian basic). Master's degree from UVSQ Paris-Saclay in Informatics (Calcul Haute Performance et Simulation - High Performance Computing and Simulation program, one of Europe's top HPC programs). Most recent work: HPC R&D engineer at Li-PaRAD laboratory (Mar-Nov 2025) working on European Processor Initiative (collaboration with SiPearl, Barcelona Supercomputing Center, RWTH Aachen) focusing on performance analysis of parallel C/C++ codes and x86/ARM assembly optimization. Prior to that: SAP consulting (May-Aug 2024, ABAP/SAPUI5) - not relevant. Strong analytical, academic rigor, documentation skills. Hobbies include motorsport, Arduino DIY projects, retro tech - suggests hands-on maker mindset despite academic focus. Currently in Kraków (likely returned after French contract ended).",
+        "culture_fit": "Academic rigor and meticulous attention to detail. Used to research environments with heavy documentation and reporting. May struggle with fast-paced startup environments or rapid prototyping without specifications. Multilingual and internationally experienced. Arduino hobby suggests interest in embedded/hardware, but no commercial embedded experience. Good for technically deep, performance-critical projects where optimization matters."
+      },
+      "external_evidence": {
+        "technical_hard_skills": [
+          "C/C++ (HPC kernels, performance optimization, code profiling)",
+          "Assembly language (x86, ARM) - low-level performance analysis and optimization",
+          "Parallel programming: OpenMPI, OpenMP (HPC paradigm, NOT pthread/embedded RTOS)",
+          "Linux (Arch, Gentoo, Debian, Ubuntu) - advanced user/administrator, NOT embedded Linux",
+          "Python (scripting, automation, data visualization, matplotlib/Excel)",
+          "Bash shell scripting (automated testing, CI pipelines)",
+          "Git (GitHub, GitLab), CMake/Make",
+          "Performance profiling and optimization (HPC context)",
+          "Network administration basics: DHCP, DNS, Docker, REST/SOAP APIs",
+          "SAP technologies: ABAP, SAPUI5, JavaScript, OData (consulting work, not relevant)",
+          "Academic projects: Autonomous vehicle (C++, OpenCV, ROS), Arduino (hobby DIY)"
+        ],
+        "soft_skills_culture": [
+          "Multilingual: French (native-level), English (fluent, TOEIC 990/990 - perfect score), Polish (fluent), German (B1), Russian (basic)",
+          "International research experience (France, European Processor Initiative)",
+          "Academic research collaboration (Intel, CEA, GENCI, multiple European HPC centers)",
+          "Meticulous, analytical, communicative, independent, curious (self-assessed)",
+          "Hobbyist maker: motorsport, Arduino projects, retro tech",
+          "Strong technical writing (reports, documentation)"
+        ],
+        "online_presence": {
+          "linkedin": "https://linkedin.com/in/fredmsl/ (professional profile)",
+          "github_public": "Not found under fredmsl256 or variants (likely private or minimal public presence)",
+          "education_verification": {
+            "UVSQ Paris-Saclay": "Real, top-tier French university (part of Université Paris-Saclay, ranked #1 French university in HPC/Computer Engineering)",
+            "Li-PaRAD": "Real laboratory at UVSQ (Laboratoire d'Informatique Parallélisme Réseaux Algorithmes Distribués)",
+            "European Processor Initiative": "Real EU-funded project (EPI) for European HPC processor development",
+            "Master CHPS": "Master Calcul Haute Performance et Simulation - prestigious HPC program"
+          },
+          "professional_reputation": "Strong academic credentials, participation in high-level EU research projects"
+        }
+      },
+      "gap_analysis": [
+        "CRITICAL: NO commercial embedded systems or real-time programming experience",
+        "NO energy sector, OZE, PV, or storage experience - NEEDS FULL DOMAIN TRAINING",
+        "NO Modbus TCP/RTU or industrial protocol experience - NEEDS TRAINING",
+        "NO hardware integration (inverters, batteries, meters) experience",
+        "NO POSIX/pthread documented (HPC uses OpenMPI/OpenMP, DIFFERENT PARADIGM from embedded)",
+        "NO commercial Linux application development (sockets, TCP/IP at embedded system level)",
+        "Recent work is HPC research (Mar-Nov 2025) and SAP consulting - NEITHER DIRECTLY RELEVANT",
+        "May need significant adaptation from batch/HPC mindset to real-time/embedded mindset",
+        "Arduino hobby projects are not commercial-grade embedded work",
+        "Age ~27-28 (graduated Master's 2025, likely 5-year program started ~2020)"
+      ],
+      "interview_strategy": [
+        "HPC TO EMBEDDED TRANSFER: Your HPC work involved OpenMPI/OpenMP. How is this different from POSIX threads? How would you approach a real-time embedded system with hard timing constraints?",
+        "LOW-LEVEL SKILLS: You have strong assembly optimization skills. Walk me through how you would debug a race condition or deadlock in a multithreaded application.",
+        "SYSTEMS THINKING: Describe your autonomous vehicle project (C++, OpenCV, ROS). What were the real-time constraints? How did you handle sensor data processing and concurrent control loops?",
+        "PROTOCOL LEARNING: How would you approach learning Modbus protocol and integrating it with embedded Linux devices? What resources would you use?",
+        "CAREER TRANSITION: Why are you interested in moving from HPC research to commercial embedded/energy systems? What attracts you to this role?",
+        "PRACTICAL SKILLS: Your Arduino hobby suggests hands-on interest. Can you describe an Arduino project you built? What did you learn about embedded constraints?",
+        "AVAILABILITY & LOGISTICS: What is your current status? Are you available immediately? What are your salary expectations? Preferred work mode (remote/hybrid/on-site)?"
+      ],
+      "additional_info": {
+        "avail_from": "Likely immediately available (HPC contract ended Nov 2025)",
+        "expected_net": "Likely 15,000-25,000 PLN range (research background, international experience, but no commercial embedded)",
+        "exp_similar": "No (no direct energy sector or commercial embedded experience)",
+        "location": "Kraków (confirmed - based on CV)",
+        "contact": "fredmsl256@gmail.com, 694 587 270",
+        "linkedin": "https://linkedin.com/in/fredmsl/",
+        "age_estimate": "~27-28 years old",
+        "education_level": "Master's degree (UVSQ Paris-Saclay, top-tier French university)"
+      },
+      "recruiter_notes": {
+        "red_flags": "NO commercial embedded experience (core requirement), HPC research mindset may not transfer well to real-time embedded, would need 3-6 months retraining, Arduino hobby ≠ commercial embedded work",
+        "green_flags": "Exceptional low-level C/C++/assembly skills, perfect English + multilingual, top-tier education, meticulous/analytical, local to Kraków, available immediately, autonomous vehicle project shows some embedded exposure",
+        "recommendation": "MEDIUM-RISK HIRE. Strong fundamentals but wrong domain. Consider if: (1) willing to invest 3-6 months training in embedded/energy domain, (2) have senior mentor available, (3) prioritize code quality and optimization over immediate productivity. His HPC optimization skills could be valuable for performance-critical EMS algorithms once domain knowledge is acquired.",
+        "interview_approach": "Focus on transferable skills (low-level debugging, performance optimization, systems thinking) and assess learning agility. Be transparent about domain gap and training expectations."
+      }
+    }
+  ],
+  "research_methodology": {
+    "sources_searched": [
+      "LinkedIn profiles (verified employment, education, skills)",
+      "Company websites (needCode, Instytut Fotonowy, UVSQ, Li-PaRAD)",
+      "GitHub (public repositories, code samples)",
+      "Academic institutions (AGH, UVSQ Paris-Saclay, WSZ Kraków)",
+      "Research projects (European Processor Initiative, Li-PaRAD publications)",
+      "Industry partnerships (Qorvo, needCode, IoT ecosystem)",
+      "Professional networks (BLE SIG, HPC forums)"
+    ],
+    "verification_status": {
+      "Arkadiusz_Tyran": "HIGH - LinkedIn verified, needCode employment confirmed, company partnerships verified (Qorvo), AGH education likely (not directly verified but consistent with Kraków location and timeline)",
+      "Mikita_Khaladzenka": "MEDIUM - LinkedIn exists but minimal, Instytut Fotonowy verified as real company, Kb-System unclear, education at WSZ confirmed as real school, no public code portfolio found",
+      "Fryderyk_Musiał": "HIGH - LinkedIn verified, UVSQ Paris-Saclay education verified (top-tier institution), Li-PaRAD laboratory verified (real UVSQ lab), European Processor Initiative verified (real EU project), TOEIC 990 claim credible given perfect English in CV"
+    }
+  },
+  "final_ranking": {
+    "top_recommendation": {
+      "candidate": "Arkadiusz Tyran",
+      "priority": "HIGHEST - Schedule interview within 48 hours",
+      "rationale": "Perfect embedded/IoT background, 10+ years experience, local to Kraków, works at reputable company, AGH degree. Only gap is energy domain (trainable). Risk of being hired by competitors if we delay."
+    },
+    "backup_option": {
+      "candidate": "Fryderyk Musiał",
+      "priority": "MEDIUM - Consider if willing to invest in training",
+      "rationale": "Exceptional fundamentals (HPC, low-level optimization, multilingual, top-tier education), but no embedded/energy experience. 3-6 month ramp-up needed. Good for long-term quality/optimization-focused role."
+    },
+    "not_recommended": {
+      "candidate": "Mikita Khaladzenka",
+      "priority": "LOW - Only for intern program",
+      "rationale": "Too junior for this role (6 months experience, currently student). Missing all core requirements (Linux, POSIX, pthread, network programming). Could be summer intern or future junior role after graduation + more experience."
+    }
+  }
+}

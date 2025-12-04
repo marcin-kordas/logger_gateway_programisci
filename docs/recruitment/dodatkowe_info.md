@@ -61,3 +61,19 @@
 - **Kiedy możesz rozpocząć pracę?** Natychmiast
 - **Czy masz doświadczenie w pracy na podobnym stanowisku?** Nie
 - **Jakie jest Twoje oczekiwane wynagrodzenie netto (na rękę)?** -
+
+---
+
+## 9. Fryderyk Musiał (04.12.2025)
+
+- **Kiedy możesz rozpocząć pracę?** Natychmiast
+- **Czy masz doświadczenie w pracy na podobnym stanowisku?** Tak, do roku
+- **Jakie jest Twoje oczekiwane wynagrodzenie netto (na rękę)?** 7000
+
+---
+
+## 10. Mikita Khaladenka (04.12.2025)
+
+- **Kiedy możesz rozpocząć pracę?** Natychmiast
+- **Czy masz doświadczenie w pracy na podobnym stanowisku?** -
+- **Jakie jest Twoje oczekiwane wynagrodzenie netto (na rękę)?** - (staż za darmo)
